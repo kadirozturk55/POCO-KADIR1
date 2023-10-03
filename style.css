@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .container {
+display: grid; 
+width: 100%;
+grid-template-columns: 50% 50%;
+text-align: center;
+margin-top: 20px;
+   
+}
+h1 {text-align: center;}
+.box {
+    background-color: black;
+    color: white;
+    width: 450px;
+    height: 200px;
+   padding: 25%;
+   font-size: 2em;
+   
+
+}
+.tile {
+    margin: 20px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+button {
+    margin: auto;
+    display: block ;
+    width: 200px;
+    height: 100px;
+}
