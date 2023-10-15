@@ -1,0 +1,37 @@
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100vh; 
+}
+
+
+
+.profile-card {
+    width: 300px;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+.profile-card img {
+    width: 200px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+/* to hide*/
+.profile-card .info {
+    display: none;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    text-align: center;
+}
+
+/* when hovering */
+.profile-card:hover .info {
+    display: block;
+}
