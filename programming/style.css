@@ -1,0 +1,26 @@
+html{
+    font-family: sans-serif;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    border: 0.25rem solid rgb(95, 95, 97);
+    border-radius: 0.5rem;
+    padding: 0.2rem;
+    list-style: none;
+}
+
+section{
+    display: block;
+    background-color: #59a1af;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 230px;
+    margin: 1rem;
+    padding: 1rem 0.5rem;
+    border-radius: 0.5rem;
+    color: #fff;
+    font-weight: bold;
+    
+}

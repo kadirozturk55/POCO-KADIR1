@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <ul class="nav_ul"    style= "list-style-type: none;">
+            <li id="first" class="nav_li"><a class="nav_a" href="#">main page</a></li>
+            <li id="second" class="nav_li"><a class="nav_a" href="#">about us</a> </li>
+            <li id="third" class="nav_li"><a class="nav_a" href="#">FaQ</a></li>
+            <li id="fourth" class="nav_li"><a class="nav_a" href="#">research</a></li>
+        </ul>
+    </header>
+        <form class="input_form" action="" >
+            <label  class="firstname1" for="firstname">first name</label>
+            <input id="firstname" name="firstname" type="text">
+
+            <label for="lastname">last name</label>
+            <input id="lastname" name="lastname" type="text">
+
+            <label for="text">please write here</label>
+            <textarea name="text" id="text" cols="30" rows="10"></textarea>
+                <!-- to show alert -->
+            <!-- <button onclick="alert('are you sure?')" class="click_button">submit</button>-->
+            <!-- <a href="#"   onclick="document.querySelector('.firstname1').textContent='changed'" class="click_button" style="border:2px solid red">submit</a>-->
+            <a onclick="general()" class="link_a" href="#">button</a>
+        
+        </form>
+<div class="lastcontainer">
+    <a href="#" class="lasttry">lastbutton</a>
+        <ul class="letstry">
+            <li><a  class="try" href="#">letstry1</a></li>
+            <li><a  class="try" href="#">letstry2</a></li>
+            <li><a  class="try" href="#">letstry3</a></li>
+            <li><a  class="try" href="#">letstry4</a></li>
+        </ul>
+    
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
